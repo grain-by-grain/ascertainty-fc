@@ -1,0 +1,57 @@
+# ─── Unreal Engine (generated / local) ──────────────────────
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+
+# ─── Editor / AI-tooling plugin (not part of the game) ──────
+Plugins/VibeUE/
+
+# ─── Fab Standard License assets — NOT redistributable ──────
+# These ship inside a built game, but can't be redistributed as
+# source. Buy them on Fab and drop them into /Content (see README).
+Content/Statium_Soccer/
+Content/White_Football_Player/
+
+# ─── World-Partition actor data for Epic template/demo levels (not shipped) ───
+Content/__ExternalActors__/
+Content/__ExternalObjects__/
+
+# ─── Stadium-screen branding (Fab-stadium-specific; not used by Lvl_Match) ───
+# Textures embed a machine reimport path; the material instances + widget are
+# orphaned once the Fab stadium (+ its M_ToroStudio parent) is excluded.
+# All of this still ships inside the packaged game.
+Content/Ascertainty/UI/T_ScreenDashboard.uasset
+Content/Ascertainty/UI/T_ScreenGraphic.uasset
+Content/Ascertainty/Screens/T_OH_1.uasset
+Content/Ascertainty/Screens/T_OH_2.uasset
+Content/Ascertainty/Screens/T_OH_3.uasset
+Content/Ascertainty/Screens/T_Side_Display.uasset
+Content/Ascertainty/Materials/MI_Screen_Dash.uasset
+Content/Ascertainty/Materials/MI_Screen_GRAIN.uasset
+Content/Ascertainty/Materials/MI_Screen_OH1.uasset
+Content/Ascertainty/Materials/MI_Screen_OH2.uasset
+Content/Ascertainty/Materials/MI_Screen_OH3.uasset
+Content/Ascertainty/UI/WBP_Screen.uasset
+
+# ─── Internal AI-tooling guide + MCP config (references the excluded VibeUE plugin) ───
+CLAUDE.md
+.mcp.json
+
+# ─── Fab-pack promo/reference art (seller: Code This Lab) — not redistributable ───
+White_Football_Player.png
+
+# ─── Cook artifact — file-open-order log embeds machine paths (regenerated each cook) ───
+Build/*/FileOpenOrder/
+
+# ─── Redundant auto-imported splash textures (the .bmp files ARE the splash; these embed the import path) ───
+Content/Splash/*.uasset
+
+# ─── Throwaway test asset + dead material (both confirmed unreferenced) ───
+Content/Tmp/
+Content/Ascertainty/UI/M_MinimapVC.uasset
