@@ -8,7 +8,7 @@ Built in **Unreal Engine 5.8**. Grab a player, dribble up the pitch, and score.
 
 ## Play
 
-- **Download build:** _itch.io link — coming soon_
+- **▶ Play now (Windows):** **[grain-by-grain.itch.io/ascertainty-fc](https://grain-by-grain.itch.io/ascertainty-fc)**
 - **Or open the project** in Unreal Engine 5.8 — see below.
 
 ## Controls
