@@ -21,8 +21,10 @@ Built in **Unreal Engine 5.8**. Grab a player, dribble up the pitch, and score.
 **1 · Download & play (Windows) — no setup.**
 Grab the packaged build — the player model, stadium, and every mechanic are baked in. Unzip and run.
 ▶ **[grain-by-grain.itch.io/ascertainty-fc](https://grain-by-grain.itch.io/ascertainty-fc)**
-**[Here](https://ascertainty.com) is a YouTube Demo.**
+
+**[Here](https://ascertainty.com) is a YouTube Demo:**
 [![Watch the demo](https://img.youtube.com/vi/zs1lrbTtBHA/maxresdefault.jpg)](https://youtu.be/zs1lrbTtBHA)
+
 **2 · Clone & open in Unreal Engine 5.8 — for builders.**
 Build it yourself and field your own players. See *Open it in the editor* below.
 
