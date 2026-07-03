@@ -8,44 +8,57 @@ Built in **Unreal Engine 5.8**. Grab a player, dribble up the pitch, and score.
 
 ## Play
 
-- **▶ Play now (Windows):** **[grain-by-grain.itch.io/ascertainty-fc](https://grain-by-grain.itch.io/ascertainty-fc)**
-- **Or open the project** in Unreal Engine 5.8 — see below.
+**Two ways in:**
+
+**1 · Download & play (Windows) — no setup.**
+Grab the packaged build — the player model, stadium, and every mechanic are baked in. Unzip and run.
+▶ **[grain-by-grain.itch.io/ascertainty-fc](https://grain-by-grain.itch.io/ascertainty-fc)**
+
+**2 · Clone & open in Unreal Engine 5.8 — for builders.**
+Build it yourself and field your own players. See *Open it in the editor* below.
 
 ## Controls
 
 | Input | Action |
 |---|---|
 | **W A S D** / Arrows | Move |
-| **Left Shift** (hold) | Sprint — drains the stamina bar |
+| **Left Shift** (hold, or double-tap) | Run / sprint — drains the stamina + sprint bars |
 | **Left Mouse** (hold → release) | Shoot / kick — hold to charge power |
-| **Right Mouse** | Pass |
+| **Right Mouse** | Trap the ball / pass to a teammate |
 | **E** | Tackle |
 | **Spacebar** | Jump |
 
-Get near the opponent goal and shoot — a goal-magnet assist curves the ball into the net.
+Get near the opponent goal and shoot — a goal-magnet assist curves the ball into the net. The mini-map (bottom-right) shows opponents (red), teammates (blue), and the ball (yellow).
 
 ## Open it in the editor
 
 This is a **Blueprint-only** project — no C++ compile step.
 
-1. Install **Unreal Engine 5.8** via the Epic Games Launcher.
-2. Install **Git LFS** and run `git lfs install` once per machine, then clone this repo.
-3. Open `Football.uproject` and press **Play**. The default map (`Lvl_Match`) loads a 1‑v‑9 match on a walled pitch.
+1. Install **Unreal Engine 5.8** (Epic Games Launcher).
+2. Install **Git LFS**, run `git lfs install` once, then clone this repo.
+3. Open `Football.uproject` and press **Play** — the default map (`Lvl_Match`) loads a match with AI teammates and opponents on a walled pitch.
 
-The match plays on a simple pitch out of the box. For the finished look — the AI‑built footballer model and the stadium shell — add the two Fab packs below (optional).
+**Every mechanic works out of the box** on a placeholder pitch. The player model and stadium are **not** in this repo (licensing) — so you bring your own.
 
-### Optional: the Fab visual packs
+### Bring your own 3D assets — the Ascertainty way
 
-These are **Fab Standard License** packs. They can ship *inside* a built game, but the license doesn't allow redistributing them as source, so they're excluded here. **Without them the match still plays** (players fall back to default meshes and there's no stadium). For the full look, buy each on [Fab](https://www.fab.com) and drop it into `/Content`:
+This project deliberately ships with **no character or stadium art**. That's the point: field players *you* trust. Supply your own — and for the full Ascertainty treatment, have them **verified by Grain** before you put them on the pitch:
 
-| Pack | Adds | Destination |
+- **Generate & verify** — commission or AI-generate a footballer (or stadium), then run it through **Grain's verification** — rig, geometry, textures — with an optional **on-chain settlement** as proof. Start at **[grainbygrain.xyz](https://grainbygrain.xyz)**.
+- **Purchase & verify** — buy a compatible pack and put it through the same check. The demo uses two **Fab Standard License** packs; grab them on [Fab](https://www.fab.com) for the exact look in the video.
+
+Drop whatever you field into these folders:
+
+| Asset | Adds | Destination |
 |---|---|---|
-| **White_Football_Player** (Code This Lab) | the footballer model | `Content/White_Football_Player/` |
-| **Statium_Soccer** | the stadium shell | `Content/Statium_Soccer/` |
+| Player model *(demo uses White_Football_Player, Code This Lab)* | the footballer | `Content/White_Football_Player/` |
+| Stadium *(demo uses Statium_Soccer)* | the arena | `Content/Statium_Soccer/` |
+
+Without them the match still plays — players fall back to default meshes and there's no stadium.
 
 ## The idea
 
-Each player was commissioned to a spec → produced by an AI swarm → **verified by Grain** (rig + geometry + textures) → **settled on-chain** → then fielded. That pipeline runs *off-screen*; the game itself is just the match on the pitch.
+Each player was commissioned to a spec → produced by an AI swarm → **verified by Grain** (rig + geometry + textures) → **settled on-chain** → then fielded. That pipeline runs *off-screen*; the game itself is just the match on the pitch. Learn more at **[grainbygrain.xyz](https://grainbygrain.xyz)**.
 
 ## License
 
