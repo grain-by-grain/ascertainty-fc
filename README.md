@@ -1,9 +1,18 @@
 # Ascertainty FC
+
 <img width="1280" height="720" alt="splash-screen" src="https://github.com/user-attachments/assets/0d0e1ba5-abe2-478e-9ab2-3967b623f6f8" />
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/82350d78-d566-42b0-84d7-c9a618aafb57" width="32%" />
+  <img src="https://github.com/user-attachments/assets/ab9521f5-6bf9-44c5-8f93-107198ba3848" width="32%" />
+  <img src="https://github.com/user-attachments/assets/24ed992d-f5b2-4d15-9f6a-1d7ab1b2c368" width="32%" />
+</p>
 
 **A playable football match built around the [Ascertainty](https://ascertainty.com) thesis** — the players were commissioned, AI-built, verified, and settled on-chain *off the pitch*, then fielded.
 
 Built in **Unreal Engine 5.8**. Grab a player, dribble up the pitch, and score.
+
+[![Watch the demo](https://img.youtube.com/vi/zs1lrbTtBHA/maxresdefault.jpg)](https://youtu.be/zs1lrbTtBHA)
 
 ---
 
